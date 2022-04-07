@@ -1,7 +1,8 @@
 node_modules
 /dist
-/log
-log
+/bak
+/influx
+/influxdb
 
 # local env files
 .env.local

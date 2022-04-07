@@ -28,6 +28,8 @@ router.route('/')
         endTime: req.body.endTime,
         emoHistory: req.body.emoHistory,
         machineCode: req.body.machineCode,
+        workStatus: req.body.workStatus,
+        workNum: req.body.workNum,
         name: req.body.name,
       };
       logger.info(`(machineHistory.reg.params) ${JSON.stringify(params)}`);
